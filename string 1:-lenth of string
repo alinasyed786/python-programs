@@ -1,0 +1,3 @@
+a=input("enter any word")
+b=len(a)
+print(b)
