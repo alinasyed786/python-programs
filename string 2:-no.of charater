@@ -1,0 +1,3 @@
+a=input("enter any word")
+b=input("enter any charater to find")
+print(a.count(b))
