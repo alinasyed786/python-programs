@@ -1,0 +1,15 @@
+a=int(input("no. of STRINGS you want to enter "))
+i=[]
+while a!=0:
+    b=input("enter the next word")
+    i.append(b)
+    a=a-1
+print(i)
+max=len(i[0])
+for x in range(len(i)):
+    f=len(i[x])
+    if max<f:
+        max=f
+        h=x
+print(i[h])
+
