@@ -1,0 +1,9 @@
+a=input("enter any word")
+d={}
+for i in a:
+    if i in d:
+        d[i]+=1
+    else:
+        d[i]=1
+print("count of all characters in given word is:-\n"+str(d))
+    
