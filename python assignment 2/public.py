@@ -1,4 +1,4 @@
-# public acces modifier
+#example of public access modifier
 class Modifiers:
 
     def __init__(self,name):
