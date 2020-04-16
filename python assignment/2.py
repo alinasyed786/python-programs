@@ -4,8 +4,8 @@ class String:
         string=input("Enter the string\n")
         return string
     def print_string(self,strr):
-        print(strr.upper())
+        print("Given string is in UPPERCASE :- ",strr.upper())
 
 obj=String()
 strr=obj.get_string()
-obj.print_string(strr
+obj.print_string(strr)
