@@ -1,11 +1,16 @@
-#example of private access modifier
-class Modifiers:
-
-    def __init__(self, name):
-        self.__private_member = name                                          # Private Attribute
-
-print("___________Output_____________")
-m = Modifiers("PYTHON")
-print(m._Modifiers__private_member)
-m._Modifiers__private_member = "Github"
-print(m._Modifiers__private_member)
+class Geek: 	 
+	__name = None
+	__roll = None
+	__branch = None
+def __init__(self, name, roll, branch): 
+		self.__name = name 
+		self.__roll = roll 
+		self.__branch = branch  
+	def __displayDetails(self): 
+		print("Name:- ", self.__name) 
+		print("Roll:- ", self.__roll) 
+		print("Branch:- ", self.__branch)  
+	def accessPrivateFunction(self): 
+		self.__displayDetails() 
+obj = Geek("ALEENA SYED", "0827CS193D01", "CSE") 
+obj.accessPrivateFunction()
